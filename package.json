@@ -1,0 +1,25 @@
+{
+  "name": "diploma-ln",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leshafun/movies-explorer-api.git"
+  },
+  "author": "leshafun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leshafun/movies-explorer-api/issues"
+  },
+  "homepage": "https://github.com/leshafun/movies-explorer-api#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
