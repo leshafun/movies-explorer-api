@@ -12,6 +12,8 @@ const limiter = require('./utils/rateLimit');
 
 const options = {
   origin: [
+    'moviescool.nomoredomains.club0',
+    'api.moviescool.nomoredomains.club',
     'http://localhost:3000',
     'https://localhost:3000',
   ],
