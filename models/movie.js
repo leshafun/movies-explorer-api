@@ -54,11 +54,8 @@ const movieSchema = new mongoose.Schema({
     },
   },
   movieId: {
-    movieId: {
-      type: mongoose.Schema.Types.ObjectId, // изменить на MoviesExplorer
-      required: true,
-      ref: 'movieId',
-    },
+    type: Number,
+    required: true,
   },
   nameRU: {
     type: String,
