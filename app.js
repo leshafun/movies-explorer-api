@@ -14,8 +14,8 @@ const options = {
   origin: [
     'moviescool.nomoredomains.club0',
     'api.moviescool.nomoredomains.club',
-    'http://localhost:3000',
-    'https://localhost:3000',
+    'http://localhost:3005',
+    'https://localhost:3005',
   ],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
   preflightContinue: false,
@@ -31,7 +31,7 @@ const app = express();
 
 app.use('*', cors(options));
 
-app.listen(3000);
+app.listen(3005);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
